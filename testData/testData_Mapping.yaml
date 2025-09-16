@@ -1,0 +1,6 @@
+test_classes:
+  testcreateceiuser:  # this should be the class name in the test class, all small
+    data_files:
+      - testData/form_input/admin/user_management.yaml
+    sql_files:
+      - testData/sql/admin/user_management.sql

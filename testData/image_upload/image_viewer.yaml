@@ -1,0 +1,7 @@
+image_uploads:
+  - file_name: "test_image1.png"         # Local image (resources folder)
+    description: "A small PNG image"
+    source: "local"
+  - file_url: "https://your-bucket/img/highres1.jpg"   # External/bucket image
+    description: "High-res image in cloud"
+    source: "external"

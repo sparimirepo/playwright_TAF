@@ -1,0 +1,30 @@
+create_cei_only_user_form:
+  - Email: "alice.smith@example.com"
+    UserName: "AliceSmith"
+    FirstName: "Alice"
+    FamilyName: "Smith"
+    PhoneNumber: "9876543210"
+    Role: "Consumer"
+    DataSource: ["CEI", "AUTODESK"]
+
+
+  - Email: "bob.jones@example.com"
+    UserName: "BobJones"
+    FirstName: "Bob"
+    FamilyName: "Jones"
+    PhoneNumber: "1234598765"
+    Role: "Administrator"
+    DataSource: ["CEI", "PROCORE"]
+
+edit_cei_only_user_form:
+  # This section is not used for creation tests, but you can include edit data here for edit-related tests.
+  - Email: "edituser@example.com"
+    UserName: "EditUser"
+    FirstName: "Edit"
+    FamilyName: "User"
+    PhoneNumber: "5555555555"
+    Role: "Consumer"
+    DataSource: ["AUTODESK", "PROCORE"]
+
+search user:
+    username: samploeuser
