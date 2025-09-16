@@ -25,3 +25,4 @@
    4. Command:  pytest --envfile=.env.uat2one -s tests/safety/risk_forecast/smoke/
 2. To run only smoke suite tagged tests like only smoke test cases in entire project
    3. Command: pytest --envfile=.env.uat -m smoke
+4. Adding new line for sample commit
