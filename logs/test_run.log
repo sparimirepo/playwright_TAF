@@ -72,3 +72,12 @@
 [2025-09-16 09:33:37] [INFO] [NextGen_Test_Framework] [conftest.py:70] - Running in headless mode: False
 [2025-09-16 09:33:42] [INFO] [NextGen_Test_Framework] [conftest.py:80] - Navigating to URL: https://nextgen.dev1.construction.ocs.oc-test.com:8472/uat2one
 [2025-09-16 09:34:12] [INFO] [NextGen_Test_Framework] [DB_Util.py:42] - TEST STEP: 🔒Database connection is closed
+[2025-09-16 19:01:06] [INFO] [NextGen_Test_Framework] [conftest.py:44] - Loaded env from: .env.uat2one
+[2025-09-16 19:01:06] [INFO] [NextGen_Test_Framework] [conftest.py:98] - DB Wallet Directory fetched from is Wallet_uat2oneclone
+[2025-09-16 19:01:06] [INFO] [NextGen_Test_Framework] [DB_Util.py:8] - TEST STEP: DB_Util construction execution started..!
+[2025-09-16 19:01:06] [INFO] [NextGen_Test_Framework] [DB_Util.py:17] - TEST STEP: Attempting to connect NextGen ADW
+[2025-09-16 19:01:10] [INFO] [NextGen_Test_Framework] [DB_Util.py:27] - TEST STEP: Connected to NextGen ADW Database
+[2025-09-16 19:01:10] [INFO] [NextGen_Test_Framework] [conftest.py:69] - Selected browser: chromium
+[2025-09-16 19:01:10] [INFO] [NextGen_Test_Framework] [conftest.py:70] - Running in headless mode: False
+[2025-09-16 19:01:11] [INFO] [NextGen_Test_Framework] [conftest.py:80] - Navigating to URL: https://nextgen.dev1.construction.ocs.oc-test.com:8472/uat2one
+[2025-09-16 19:01:41] [INFO] [NextGen_Test_Framework] [DB_Util.py:42] - TEST STEP: 🔒Database connection is closed
