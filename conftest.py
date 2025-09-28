@@ -16,6 +16,10 @@ from utils.NextGenUtilities import NextgenUtils
 from logging_config import global_logger
 from utils.database.DB_Util import ADW_Util
 import matplotlib.pyplot as plt
+import json
+import subprocess
+import sys
+
 
 
 # ---------- Add command-line options ----------
@@ -274,3 +278,39 @@ def pytest_sessionfinish(session, exitstatus):
         f.write("</table></body></html>")
 
     print(f"\nEnhanced summary report saved to {html_path}")
+
+
+
+def pytest_sessionfinish(session, exitstatus):
+    base_folder = getattr(session.config, "base_folder", "reports")
+    os.makedirs(base_folder, exist_ok=True)
+    html_path = os.path.join(base_folder, "summary_report.html")
+
+    # ... your existing graph + HTML report code ...
+
+    # ✅ Dump summary stats to JSON for GitHub Actions
+    summary_json = {
+        "total": sum(_pass_fail_counts.values()),
+        "passed": _pass_fail_counts["passed"],
+        "failed": _pass_fail_counts["failed"],
+        "skipped": _pass_fail_counts["skipped"],
+    }
+    json_path = os.path.join(base_folder, "summary.json")
+    with open(json_path, "w") as jf:
+        json.dump(summary_json, jf)
+
+    print(f"Enhanced summary report saved to {html_path}")
+    print(f"Summary JSON saved to {json_path}")
+
+## Call send_message_teams here post test execution
+# def pytest_sessionfinish(session, exitstatus):
+#     base_folder = getattr(session.config, "base_folder", "reports")
+#     os.makedirs(base_folder, exist_ok=True)
+#
+#     # ... your existing graph + HTML + summary.json code ...
+#
+#     # ✅ Call send_teams_message.py at the very end
+#     try:
+#         subprocess.run([sys.executable, "send_teams_message.py"], check=True)
+#     except Exception as e:
+#         global_logger.error(f"Failed to send Teams notification: {e}")

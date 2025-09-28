@@ -1,78 +1,137 @@
-[2025-09-28 14:28:45] [INFO] [NextGen_Test_Framework] [conftest.py:48] - Loaded env from: .env.uat
-[2025-09-28 14:28:45] [INFO] [NextGen_Test_Framework] [conftest.py:73] - Selected browser: chromium
-[2025-09-28 14:28:45] [INFO] [NextGen_Test_Framework] [conftest.py:74] - Running in headless mode: False
-[2025-09-28 14:28:46] [INFO] [NextGen_Test_Framework] [conftest.py:84] - Navigating to URL: https://nextgen.dev1.construction.ocs.oc-test.com:8472/uat2one
-[2025-09-28 14:28:50] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:14] - TEST STEP: Logging in as cicadmin
-[2025-09-28 14:28:50] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:62] - TEST STEP: Filling element: Username with text: 'cicadmin'
-[2025-09-28 14:28:54] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:66] - TEST STEP: Filled 'Username' with 'cicadmin'
-[2025-09-28 14:28:54] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:16] - TEST STEP: Logging in as Prima123Vera88888
-[2025-09-28 14:28:54] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:62] - TEST STEP: Filling element: Password with text: 'Prima123Vera88888'
-[2025-09-28 14:28:54] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:66] - TEST STEP: Filled 'Password' with 'Prima123Vera88888'
-[2025-09-28 14:28:54] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:48] - TEST STEP: Clicking on element: Sign In Button
-[2025-09-28 14:28:54] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:52] - TEST STEP: Successfully clicked: Sign In Button
-[2025-09-28 14:29:00] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:20] - TEST STEP: Successfully Logged in
-[2025-09-28 14:29:00] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:25] - TEST STEP: Test Initialize Completed!
-[2025-09-28 14:29:00] [INFO] [NextGen_Test_Framework] [OverviewPage.py:23] - TEST STEP: Navigating to Safety Page
-[2025-09-28 14:29:00] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:48] - TEST STEP: Clicking on element: Safety Page
-[2025-09-28 14:29:01] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:52] - TEST STEP: Successfully clicked: Safety Page
-[2025-09-28 14:29:02] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:30] - TEST STEP: Navigating to safety module
-[2025-09-28 14:29:02] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:31] - TEST STEP: Safety page is loaded..!
-[2025-09-28 14:29:02] [INFO] [NextGen_Test_Framework] [SafetyPage.py:17] - TEST STEP: Validating Safety Page Header
-[2025-09-28 14:29:02] [INFO] [NextGen_Test_Framework] [SafetyPage.py:25] - TEST STEP: Successfully validated Safety Page Header
-[2025-09-28 14:29:02] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:33] - Safety Page title is validated..!
-[2025-09-28 14:29:02] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:39] - DB Query execution completed!
-[2025-09-28 14:29:02] [INFO] [NextGen_Test_Framework] [conftest.py:90] - Closed browser and context
-[2025-09-28 14:30:45] [INFO] [NextGen_Test_Framework] [conftest.py:48] - Loaded env from: .env.uat
-[2025-09-28 14:30:45] [INFO] [NextGen_Test_Framework] [conftest.py:73] - Selected browser: chromium
-[2025-09-28 14:30:45] [INFO] [NextGen_Test_Framework] [conftest.py:74] - Running in headless mode: False
-[2025-09-28 14:30:46] [INFO] [NextGen_Test_Framework] [conftest.py:84] - Navigating to URL: https://nextgen.dev1.construction.ocs.oc-test.com:8472/uat2one
-[2025-09-28 14:30:50] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:14] - TEST STEP: Logging in as cicadmin
-[2025-09-28 14:30:50] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:62] - TEST STEP: Filling element: Username with text: 'cicadmin'
-[2025-09-28 14:30:54] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:66] - TEST STEP: Filled 'Username' with 'cicadmin'
-[2025-09-28 14:30:54] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:16] - TEST STEP: Logging in as Prima123Vera88888
-[2025-09-28 14:30:54] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:62] - TEST STEP: Filling element: Password with text: 'Prima123Vera88888'
-[2025-09-28 14:30:54] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:66] - TEST STEP: Filled 'Password' with 'Prima123Vera88888'
-[2025-09-28 14:30:54] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:48] - TEST STEP: Clicking on element: Sign In Button
-[2025-09-28 14:30:54] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:52] - TEST STEP: Successfully clicked: Sign In Button
-[2025-09-28 14:31:01] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:20] - TEST STEP: Successfully Logged in
-[2025-09-28 14:31:01] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:25] - TEST STEP: Test Initialize Completed!
-[2025-09-28 14:31:01] [INFO] [NextGen_Test_Framework] [OverviewPage.py:23] - TEST STEP: Navigating to Safety Page
-[2025-09-28 14:31:01] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:48] - TEST STEP: Clicking on element: Safety Page
-[2025-09-28 14:31:02] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:52] - TEST STEP: Successfully clicked: Safety Page
-[2025-09-28 14:31:03] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:30] - TEST STEP: Navigating to safety module
-[2025-09-28 14:31:03] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:31] - TEST STEP: Safety page is loaded..!
-[2025-09-28 14:31:03] [INFO] [NextGen_Test_Framework] [SafetyPage.py:17] - TEST STEP: Validating Safety Page Header
-[2025-09-28 14:31:03] [INFO] [NextGen_Test_Framework] [SafetyPage.py:25] - TEST STEP: Successfully validated Safety Page Header
-[2025-09-28 14:31:03] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:33] - Safety Page title is validated..!
-[2025-09-28 14:31:03] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:39] - DB Query execution completed!
-[2025-09-28 14:31:03] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:43] - test_safety_02 completed!
-[2025-09-28 14:31:03] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:47] - test_safety_03 completed!
-[2025-09-28 14:31:03] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:51] - test_safety_04 completed!
-[2025-09-28 14:31:03] [INFO] [NextGen_Test_Framework] [conftest.py:90] - Closed browser and context
-[2025-09-28 14:31:24] [INFO] [NextGen_Test_Framework] [conftest.py:48] - Loaded env from: .env.uat
-[2025-09-28 14:31:24] [INFO] [NextGen_Test_Framework] [conftest.py:73] - Selected browser: chromium
-[2025-09-28 14:31:24] [INFO] [NextGen_Test_Framework] [conftest.py:74] - Running in headless mode: False
-[2025-09-28 14:31:25] [INFO] [NextGen_Test_Framework] [conftest.py:84] - Navigating to URL: https://nextgen.dev1.construction.ocs.oc-test.com:8472/uat2one
-[2025-09-28 14:31:30] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:14] - TEST STEP: Logging in as cicadmin
-[2025-09-28 14:31:30] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:62] - TEST STEP: Filling element: Username with text: 'cicadmin'
-[2025-09-28 14:31:34] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:66] - TEST STEP: Filled 'Username' with 'cicadmin'
-[2025-09-28 14:31:34] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:16] - TEST STEP: Logging in as Prima123Vera88888
-[2025-09-28 14:31:34] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:62] - TEST STEP: Filling element: Password with text: 'Prima123Vera88888'
-[2025-09-28 14:31:34] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:66] - TEST STEP: Filled 'Password' with 'Prima123Vera88888'
-[2025-09-28 14:31:34] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:48] - TEST STEP: Clicking on element: Sign In Button
-[2025-09-28 14:31:34] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:52] - TEST STEP: Successfully clicked: Sign In Button
-[2025-09-28 14:31:40] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:20] - TEST STEP: Successfully Logged in
-[2025-09-28 14:31:40] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:25] - TEST STEP: Test Initialize Completed!
-[2025-09-28 14:31:40] [INFO] [NextGen_Test_Framework] [OverviewPage.py:23] - TEST STEP: Navigating to Safety Page
-[2025-09-28 14:31:40] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:48] - TEST STEP: Clicking on element: Safety Page
-[2025-09-28 14:31:41] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:52] - TEST STEP: Successfully clicked: Safety Page
-[2025-09-28 14:31:41] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:30] - TEST STEP: Navigating to safety module
-[2025-09-28 14:31:41] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:31] - TEST STEP: Safety page is loaded..!
-[2025-09-28 14:31:41] [INFO] [NextGen_Test_Framework] [SafetyPage.py:17] - TEST STEP: Validating Safety Page Header
-[2025-09-28 14:31:47] [INFO] [NextGen_Test_Framework] [logger_utils.py:51] - Checking Safety Module Title failed in /Users/spnaidu/Documents/Playwright_TAF/playwright_TAF/tests/safety/risk_forecast/smoke/test_weekly_risk_summary.py:32 - Screenshot captured at logs/screenshots/Checking Safety Module Title.png
-[2025-09-28 14:31:47] [ERROR] [NextGen_Test_Framework] [logger_utils.py:53] - Step failed in /Users/spnaidu/Documents/Playwright_TAF/playwright_TAF/tests/safety/risk_forecast/smoke/test_weekly_risk_summary.py:32 - screenshot and logs attached.
-[2025-09-28 14:31:47] [ERROR] [NextGen_Test_Framework] [conftest.py:214] - Assertion failed in test 'TestWeeklyRiskSummary.test_navigation_to_safety_page' (class: 'TestWeeklyRiskSummary') at /Users/spnaidu/Documents/Playwright_TAF/playwright_TAF/pageObjects/safety/SafetyPage.py:24. Line: raise AssertionError("Checking Safety Module Title failed")
-[2025-09-28 14:31:47] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:43] - test_safety_02 completed!
-[2025-09-28 14:31:47] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:47] - test_safety_03 completed!
-[2025-09-28 14:31:47] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:51] - test_safety_04 completed!
-[2025-09-28 14:31:47] [INFO] [NextGen_Test_Framework] [conftest.py:90] - Closed browser and context
+[2025-09-28 14:48:02] [INFO] [NextGen_Test_Framework] [conftest.py:49] - Loaded env from: .env.uat
+[2025-09-28 14:48:02] [INFO] [NextGen_Test_Framework] [conftest.py:74] - Selected browser: chromium
+[2025-09-28 14:48:02] [INFO] [NextGen_Test_Framework] [conftest.py:75] - Running in headless mode: False
+[2025-09-28 14:48:03] [INFO] [NextGen_Test_Framework] [conftest.py:85] - Navigating to URL: https://nextgen.dev1.construction.ocs.oc-test.com:8472/uat2one
+[2025-09-28 14:48:06] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:14] - TEST STEP: Logging in as cicadmin
+[2025-09-28 14:48:06] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:62] - TEST STEP: Filling element: Username with text: 'cicadmin'
+[2025-09-28 14:48:10] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:66] - TEST STEP: Filled 'Username' with 'cicadmin'
+[2025-09-28 14:48:10] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:16] - TEST STEP: Logging in as Prima123Vera88888
+[2025-09-28 14:48:10] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:62] - TEST STEP: Filling element: Password with text: 'Prima123Vera88888'
+[2025-09-28 14:48:10] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:66] - TEST STEP: Filled 'Password' with 'Prima123Vera88888'
+[2025-09-28 14:48:10] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:48] - TEST STEP: Clicking on element: Sign In Button
+[2025-09-28 14:48:10] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:52] - TEST STEP: Successfully clicked: Sign In Button
+[2025-09-28 14:48:16] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:20] - TEST STEP: Successfully Logged in
+[2025-09-28 14:48:16] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:25] - TEST STEP: Test Initialize Completed!
+[2025-09-28 14:48:16] [INFO] [NextGen_Test_Framework] [OverviewPage.py:23] - TEST STEP: Navigating to Safety Page
+[2025-09-28 14:48:16] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:48] - TEST STEP: Clicking on element: Safety Page
+[2025-09-28 14:48:17] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:52] - TEST STEP: Successfully clicked: Safety Page
+[2025-09-28 14:48:18] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:30] - TEST STEP: Navigating to safety module
+[2025-09-28 14:48:18] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:31] - TEST STEP: Safety page is loaded..!
+[2025-09-28 14:48:18] [INFO] [NextGen_Test_Framework] [SafetyPage.py:17] - TEST STEP: Validating Safety Page Header
+[2025-09-28 14:48:23] [INFO] [NextGen_Test_Framework] [logger_utils.py:51] - Checking Safety Module Title failed in /Users/spnaidu/Documents/Playwright_TAF/playwright_TAF/tests/safety/risk_forecast/smoke/test_weekly_risk_summary.py:32 - Screenshot captured at logs/screenshots/Checking Safety Module Title.png
+[2025-09-28 14:48:23] [ERROR] [NextGen_Test_Framework] [logger_utils.py:53] - Step failed in /Users/spnaidu/Documents/Playwright_TAF/playwright_TAF/tests/safety/risk_forecast/smoke/test_weekly_risk_summary.py:32 - screenshot and logs attached.
+[2025-09-28 14:48:23] [ERROR] [NextGen_Test_Framework] [conftest.py:215] - Assertion failed in test 'TestWeeklyRiskSummary.test_navigation_to_safety_page' (class: 'TestWeeklyRiskSummary') at /Users/spnaidu/Documents/Playwright_TAF/playwright_TAF/pageObjects/safety/SafetyPage.py:24. Line: raise AssertionError("Checking Safety Module Title failed")
+[2025-09-28 14:48:23] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:43] - test_safety_02 completed!
+[2025-09-28 14:48:23] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:47] - test_safety_03 completed!
+[2025-09-28 14:48:23] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:51] - test_safety_04 completed!
+[2025-09-28 14:48:23] [INFO] [NextGen_Test_Framework] [conftest.py:91] - Closed browser and context
+[2025-09-28 14:50:56] [INFO] [NextGen_Test_Framework] [conftest.py:52] - Loaded env from: .env.uat
+[2025-09-28 14:50:56] [INFO] [NextGen_Test_Framework] [conftest.py:77] - Selected browser: chromium
+[2025-09-28 14:50:56] [INFO] [NextGen_Test_Framework] [conftest.py:78] - Running in headless mode: False
+[2025-09-28 14:50:57] [INFO] [NextGen_Test_Framework] [conftest.py:88] - Navigating to URL: https://nextgen.dev1.construction.ocs.oc-test.com:8472/uat2one
+[2025-09-28 14:51:02] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:14] - TEST STEP: Logging in as cicadmin
+[2025-09-28 14:51:02] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:62] - TEST STEP: Filling element: Username with text: 'cicadmin'
+[2025-09-28 14:51:06] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:66] - TEST STEP: Filled 'Username' with 'cicadmin'
+[2025-09-28 14:51:06] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:16] - TEST STEP: Logging in as Prima123Vera88888
+[2025-09-28 14:51:06] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:62] - TEST STEP: Filling element: Password with text: 'Prima123Vera88888'
+[2025-09-28 14:51:06] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:66] - TEST STEP: Filled 'Password' with 'Prima123Vera88888'
+[2025-09-28 14:51:06] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:48] - TEST STEP: Clicking on element: Sign In Button
+[2025-09-28 14:51:06] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:52] - TEST STEP: Successfully clicked: Sign In Button
+[2025-09-28 14:51:12] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:20] - TEST STEP: Successfully Logged in
+[2025-09-28 14:51:12] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:25] - TEST STEP: Test Initialize Completed!
+[2025-09-28 14:51:12] [INFO] [NextGen_Test_Framework] [OverviewPage.py:23] - TEST STEP: Navigating to Safety Page
+[2025-09-28 14:51:12] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:48] - TEST STEP: Clicking on element: Safety Page
+[2025-09-28 14:51:12] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:52] - TEST STEP: Successfully clicked: Safety Page
+[2025-09-28 14:51:13] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:30] - TEST STEP: Navigating to safety module
+[2025-09-28 14:51:13] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:31] - TEST STEP: Safety page is loaded..!
+[2025-09-28 14:51:13] [INFO] [NextGen_Test_Framework] [SafetyPage.py:17] - TEST STEP: Validating Safety Page Header
+[2025-09-28 14:51:19] [INFO] [NextGen_Test_Framework] [logger_utils.py:51] - Checking Safety Module Title failed in /Users/spnaidu/Documents/Playwright_TAF/playwright_TAF/tests/safety/risk_forecast/smoke/test_weekly_risk_summary.py:32 - Screenshot captured at logs/screenshots/Checking Safety Module Title.png
+[2025-09-28 14:51:19] [ERROR] [NextGen_Test_Framework] [logger_utils.py:53] - Step failed in /Users/spnaidu/Documents/Playwright_TAF/playwright_TAF/tests/safety/risk_forecast/smoke/test_weekly_risk_summary.py:32 - screenshot and logs attached.
+[2025-09-28 14:51:19] [ERROR] [NextGen_Test_Framework] [conftest.py:218] - Assertion failed in test 'TestWeeklyRiskSummary.test_navigation_to_safety_page' (class: 'TestWeeklyRiskSummary') at /Users/spnaidu/Documents/Playwright_TAF/playwright_TAF/pageObjects/safety/SafetyPage.py:24. Line: raise AssertionError("Checking Safety Module Title failed")
+[2025-09-28 14:51:19] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:43] - test_safety_02 completed!
+[2025-09-28 14:51:19] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:47] - test_safety_03 completed!
+[2025-09-28 14:51:19] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:51] - test_safety_04 completed!
+[2025-09-28 14:51:19] [INFO] [NextGen_Test_Framework] [conftest.py:94] - Closed browser and context
+[2025-09-28 14:51:19] [ERROR] [NextGen_Test_Framework] [conftest.py:316] - Failed to send Teams notification: Command '['/Users/spnaidu/Documents/Playwright_TAF/playwright_TAF/.venv/bin/python', 'send_teams_message.py']' returned non-zero exit status 2.
+[2025-09-28 14:52:52] [INFO] [NextGen_Test_Framework] [conftest.py:52] - Loaded env from: .env.uat
+[2025-09-28 14:52:52] [INFO] [NextGen_Test_Framework] [conftest.py:77] - Selected browser: chromium
+[2025-09-28 14:52:52] [INFO] [NextGen_Test_Framework] [conftest.py:78] - Running in headless mode: False
+[2025-09-28 14:52:54] [INFO] [NextGen_Test_Framework] [conftest.py:88] - Navigating to URL: https://nextgen.dev1.construction.ocs.oc-test.com:8472/uat2one
+[2025-09-28 14:53:00] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:14] - TEST STEP: Logging in as cicadmin
+[2025-09-28 14:53:00] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:62] - TEST STEP: Filling element: Username with text: 'cicadmin'
+[2025-09-28 14:53:04] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:66] - TEST STEP: Filled 'Username' with 'cicadmin'
+[2025-09-28 14:53:04] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:16] - TEST STEP: Logging in as Prima123Vera88888
+[2025-09-28 14:53:04] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:62] - TEST STEP: Filling element: Password with text: 'Prima123Vera88888'
+[2025-09-28 14:53:04] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:66] - TEST STEP: Filled 'Password' with 'Prima123Vera88888'
+[2025-09-28 14:53:04] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:48] - TEST STEP: Clicking on element: Sign In Button
+[2025-09-28 14:53:04] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:52] - TEST STEP: Successfully clicked: Sign In Button
+[2025-09-28 14:53:10] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:20] - TEST STEP: Successfully Logged in
+[2025-09-28 14:53:10] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:25] - TEST STEP: Test Initialize Completed!
+[2025-09-28 14:53:10] [INFO] [NextGen_Test_Framework] [OverviewPage.py:23] - TEST STEP: Navigating to Safety Page
+[2025-09-28 14:53:10] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:48] - TEST STEP: Clicking on element: Safety Page
+[2025-09-28 14:53:11] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:52] - TEST STEP: Successfully clicked: Safety Page
+[2025-09-28 14:53:12] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:30] - TEST STEP: Navigating to safety module
+[2025-09-28 14:53:12] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:31] - TEST STEP: Safety page is loaded..!
+[2025-09-28 14:53:12] [INFO] [NextGen_Test_Framework] [SafetyPage.py:17] - TEST STEP: Validating Safety Page Header
+[2025-09-28 14:53:17] [INFO] [NextGen_Test_Framework] [logger_utils.py:51] - Checking Safety Module Title failed in /Users/spnaidu/Documents/Playwright_TAF/playwright_TAF/tests/safety/risk_forecast/smoke/test_weekly_risk_summary.py:32 - Screenshot captured at logs/screenshots/Checking Safety Module Title.png
+[2025-09-28 14:53:17] [ERROR] [NextGen_Test_Framework] [logger_utils.py:53] - Step failed in /Users/spnaidu/Documents/Playwright_TAF/playwright_TAF/tests/safety/risk_forecast/smoke/test_weekly_risk_summary.py:32 - screenshot and logs attached.
+[2025-09-28 14:53:17] [ERROR] [NextGen_Test_Framework] [conftest.py:218] - Assertion failed in test 'TestWeeklyRiskSummary.test_navigation_to_safety_page' (class: 'TestWeeklyRiskSummary') at /Users/spnaidu/Documents/Playwright_TAF/playwright_TAF/pageObjects/safety/SafetyPage.py:24. Line: raise AssertionError("Checking Safety Module Title failed")
+[2025-09-28 14:53:17] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:43] - test_safety_02 completed!
+[2025-09-28 14:53:17] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:47] - test_safety_03 completed!
+[2025-09-28 14:53:17] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:51] - test_safety_04 completed!
+[2025-09-28 14:53:17] [INFO] [NextGen_Test_Framework] [conftest.py:94] - Closed browser and context
+[2025-09-28 14:53:17] [ERROR] [NextGen_Test_Framework] [conftest.py:316] - Failed to send Teams notification: Command '['/Users/spnaidu/Documents/Playwright_TAF/playwright_TAF/.venv/bin/python', 'send_teams_message.py']' returned non-zero exit status 2.
+[2025-09-28 14:53:57] [INFO] [NextGen_Test_Framework] [conftest.py:52] - Loaded env from: .env.uat
+[2025-09-28 14:53:57] [INFO] [NextGen_Test_Framework] [conftest.py:77] - Selected browser: chromium
+[2025-09-28 14:53:57] [INFO] [NextGen_Test_Framework] [conftest.py:78] - Running in headless mode: False
+[2025-09-28 14:53:58] [INFO] [NextGen_Test_Framework] [conftest.py:88] - Navigating to URL: https://nextgen.dev1.construction.ocs.oc-test.com:8472/uat2one
+[2025-09-28 14:54:02] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:14] - TEST STEP: Logging in as cicadmin
+[2025-09-28 14:54:02] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:62] - TEST STEP: Filling element: Username with text: 'cicadmin'
+[2025-09-28 14:54:06] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:66] - TEST STEP: Filled 'Username' with 'cicadmin'
+[2025-09-28 14:54:06] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:16] - TEST STEP: Logging in as Prima123Vera88888
+[2025-09-28 14:54:06] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:62] - TEST STEP: Filling element: Password with text: 'Prima123Vera88888'
+[2025-09-28 14:54:06] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:66] - TEST STEP: Filled 'Password' with 'Prima123Vera88888'
+[2025-09-28 14:54:06] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:48] - TEST STEP: Clicking on element: Sign In Button
+[2025-09-28 14:54:06] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:52] - TEST STEP: Successfully clicked: Sign In Button
+[2025-09-28 14:54:12] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:20] - TEST STEP: Successfully Logged in
+[2025-09-28 14:54:12] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:25] - TEST STEP: Test Initialize Completed!
+[2025-09-28 14:54:12] [INFO] [NextGen_Test_Framework] [OverviewPage.py:23] - TEST STEP: Navigating to Safety Page
+[2025-09-28 14:54:12] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:48] - TEST STEP: Clicking on element: Safety Page
+[2025-09-28 14:54:12] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:52] - TEST STEP: Successfully clicked: Safety Page
+[2025-09-28 14:54:13] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:30] - TEST STEP: Navigating to safety module
+[2025-09-28 14:54:13] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:31] - TEST STEP: Safety page is loaded..!
+[2025-09-28 14:54:13] [INFO] [NextGen_Test_Framework] [SafetyPage.py:17] - TEST STEP: Validating Safety Page Header
+[2025-09-28 14:54:18] [INFO] [NextGen_Test_Framework] [logger_utils.py:51] - Checking Safety Module Title failed in /Users/spnaidu/Documents/Playwright_TAF/playwright_TAF/tests/safety/risk_forecast/smoke/test_weekly_risk_summary.py:32 - Screenshot captured at logs/screenshots/Checking Safety Module Title.png
+[2025-09-28 14:54:18] [ERROR] [NextGen_Test_Framework] [logger_utils.py:53] - Step failed in /Users/spnaidu/Documents/Playwright_TAF/playwright_TAF/tests/safety/risk_forecast/smoke/test_weekly_risk_summary.py:32 - screenshot and logs attached.
+[2025-09-28 14:54:18] [ERROR] [NextGen_Test_Framework] [conftest.py:218] - Assertion failed in test 'TestWeeklyRiskSummary.test_navigation_to_safety_page' (class: 'TestWeeklyRiskSummary') at /Users/spnaidu/Documents/Playwright_TAF/playwright_TAF/pageObjects/safety/SafetyPage.py:24. Line: raise AssertionError("Checking Safety Module Title failed")
+[2025-09-28 14:54:18] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:43] - test_safety_02 completed!
+[2025-09-28 14:54:18] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:47] - test_safety_03 completed!
+[2025-09-28 14:54:18] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:51] - test_safety_04 completed!
+[2025-09-28 14:54:18] [INFO] [NextGen_Test_Framework] [conftest.py:94] - Closed browser and context
+[2025-09-28 14:55:22] [INFO] [NextGen_Test_Framework] [conftest.py:52] - Loaded env from: .env.uat
+[2025-09-28 14:55:22] [INFO] [NextGen_Test_Framework] [conftest.py:77] - Selected browser: chromium
+[2025-09-28 14:55:22] [INFO] [NextGen_Test_Framework] [conftest.py:78] - Running in headless mode: False
+[2025-09-28 14:55:23] [INFO] [NextGen_Test_Framework] [conftest.py:88] - Navigating to URL: https://nextgen.dev1.construction.ocs.oc-test.com:8472/uat2one
+[2025-09-28 14:55:26] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:14] - TEST STEP: Logging in as cicadmin
+[2025-09-28 14:55:26] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:62] - TEST STEP: Filling element: Username with text: 'cicadmin'
+[2025-09-28 14:55:30] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:66] - TEST STEP: Filled 'Username' with 'cicadmin'
+[2025-09-28 14:55:30] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:16] - TEST STEP: Logging in as Prima123Vera88888
+[2025-09-28 14:55:30] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:62] - TEST STEP: Filling element: Password with text: 'Prima123Vera88888'
+[2025-09-28 14:55:30] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:66] - TEST STEP: Filled 'Password' with 'Prima123Vera88888'
+[2025-09-28 14:55:30] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:48] - TEST STEP: Clicking on element: Sign In Button
+[2025-09-28 14:55:30] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:52] - TEST STEP: Successfully clicked: Sign In Button
+[2025-09-28 14:55:36] [INFO] [NextGen_Test_Framework] [NextGenUtilities.py:20] - TEST STEP: Successfully Logged in
+[2025-09-28 14:55:36] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:25] - TEST STEP: Test Initialize Completed!
+[2025-09-28 14:55:36] [INFO] [NextGen_Test_Framework] [OverviewPage.py:23] - TEST STEP: Navigating to Safety Page
+[2025-09-28 14:55:36] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:48] - TEST STEP: Clicking on element: Safety Page
+[2025-09-28 14:55:36] [INFO] [NextGen_Test_Framework] [CommonUtilities.py:52] - TEST STEP: Successfully clicked: Safety Page
+[2025-09-28 14:55:37] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:30] - TEST STEP: Navigating to safety module
+[2025-09-28 14:55:37] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:31] - TEST STEP: Safety page is loaded..!
+[2025-09-28 14:55:37] [INFO] [NextGen_Test_Framework] [SafetyPage.py:17] - TEST STEP: Validating Safety Page Header
+[2025-09-28 14:55:42] [INFO] [NextGen_Test_Framework] [logger_utils.py:51] - Checking Safety Module Title failed in /Users/spnaidu/Documents/Playwright_TAF/playwright_TAF/tests/safety/risk_forecast/smoke/test_weekly_risk_summary.py:32 - Screenshot captured at logs/screenshots/Checking Safety Module Title.png
+[2025-09-28 14:55:42] [ERROR] [NextGen_Test_Framework] [logger_utils.py:53] - Step failed in /Users/spnaidu/Documents/Playwright_TAF/playwright_TAF/tests/safety/risk_forecast/smoke/test_weekly_risk_summary.py:32 - screenshot and logs attached.
+[2025-09-28 14:55:42] [ERROR] [NextGen_Test_Framework] [conftest.py:218] - Assertion failed in test 'TestWeeklyRiskSummary.test_navigation_to_safety_page' (class: 'TestWeeklyRiskSummary') at /Users/spnaidu/Documents/Playwright_TAF/playwright_TAF/pageObjects/safety/SafetyPage.py:24. Line: raise AssertionError("Checking Safety Module Title failed")
+[2025-09-28 14:55:42] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:43] - test_safety_02 completed!
+[2025-09-28 14:55:42] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:47] - test_safety_03 completed!
+[2025-09-28 14:55:42] [INFO] [NextGen_Test_Framework] [test_weekly_risk_summary.py:51] - test_safety_04 completed!
+[2025-09-28 14:55:43] [INFO] [NextGen_Test_Framework] [conftest.py:94] - Closed browser and context

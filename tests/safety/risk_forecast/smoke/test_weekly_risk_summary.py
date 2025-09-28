@@ -6,7 +6,7 @@ from utils.NextGenUtilities import NextgenUtils
 from utils.logging.logger_utils import log_step, capture_and_log_failure
 
 
-@pytest.mark.usefixtures("browser_context", "configuration", "utils_setup", "initialize", "db_connection")
+@pytest.mark.usefixtures("browser_context", "configuration", "utils_setup", "initialize")
 class TestWeeklyRiskSummary():
     overview_page: OverviewPage
     safety_page: SafetyPage
@@ -24,7 +24,7 @@ class TestWeeklyRiskSummary():
         cls.safety_page = SafetyPage(browser_context)
         log_step("Test Initialize Completed!")
 
-    def test_navigation_to_safety_page(self, db_connection):
+    def test_navigation_to_safety_page(self):
         """Validate user landed on safety page"""
         self.overview_page.navigate_to_safety_page()
         log_step("Navigating to safety module")

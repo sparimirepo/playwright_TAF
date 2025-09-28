@@ -26,3 +26,13 @@
 2. To run only smoke suite tagged tests like only smoke test cases in entire project
    3. Command: pytest --envfile=.env.uat -m smoke
 4. Adding new line for sample commit
+
+
+
+"""Github code to send message to slack""""""
+      - name: Send notification to Teams
+        run: |
+          python send_teams_message.py
+        env:
+          TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
+          REPORT_URL: "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
