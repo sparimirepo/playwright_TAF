@@ -15,7 +15,7 @@ class SafetyPage:
 
     def validate_safety_page_header(self):
         log_step("Validating Safety Page Header")
-        header = self.page.get_by_role("heading", name="Safety")
+        header = self.page.get_by_role("heading", name="Safety1")
         # assert header.is_visible(), "Safety header is not visible"
         try:
             expect(header).to_be_visible()
