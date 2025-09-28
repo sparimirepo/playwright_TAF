@@ -20,7 +20,7 @@
 
 ### Test Execution
 1. Run in single test class using Terminal. 
-   2. Command:  pytest --envfile=.env.uat2one -s tests/safety/risk_forecast/smoke/test_weekly_risk_summary.py
+   2. Command:   pytest --envfile=.env.uat -s tests/safety/risk_forecast/smoke/test_weekly_risk_summary.py
 3. Run all test classes inside any test folder like smoke or regression 
    4. Command:  pytest --envfile=.env.uat2one -s tests/safety/risk_forecast/smoke/
 2. To run only smoke suite tagged tests like only smoke test cases in entire project
